@@ -1,0 +1,14 @@
+﻿Margin: Hướng ra đối tượng bên ngoài nó
+Ví dụ 
+body header{
+	margin-top:20px;
+}
+=> Hiểu cách thành phần body một đoạn là 20px 
+/---------------------------------------------------------/
+Padding: Hướng vào đối tượng chứa bên trong nó
+Ví dụ:
+h1 chứa bên trong header 
+=> h1 cách header một đoạn là 20px
+có hai cách
++ Cách 1: h1 hướng ra [margin] cách 20px nhưng điều này không nên định dạng từ ngoài vào trong
++ Cách 2: header hướng vào [padding] cách 20px điều này chấp nhân vì định dạng từ ngoài vào trong
