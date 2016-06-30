@@ -12,3 +12,23 @@ h1 chứa bên trong header
 có hai cách
 + Cách 1: h1 hướng ra [margin] cách 20px nhưng điều này không nên định dạng từ ngoài vào trong
 + Cách 2: header hướng vào [padding] cách 20px điều này chấp nhân vì định dạng từ ngoài vào trong
+Lưu ý với cách 2: Bạn cần tính toán lại kích thước của header vì lúc này header bị lệch 
+Bước 6
+Bước 7
+Bước 8 Hình ảnh cho thấy padding header làm header di chuyển bị lệch vì thế cần tính toán lại bề rộng cũng
+như bề cao của header.
+Tính như sau:
+header{
+	width:1024px;
+}
+header{
+	width: ?px
+	padding-left:35px;
+}
+=> ? = 1024 - 35 = 989px;
+header{
+	width: 989px
+	padding-left:35px;
+}
+=> tương tự chúng ta tính toán chiều cao tương tự nhé.
+
